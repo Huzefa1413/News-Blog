@@ -34,13 +34,11 @@ Robotsy News is a React application that fetches and displays news articles usin
 
 ## Installation
 
-````
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Huzefa1413/News-Blog.git
    ```
-
-````
 
 2. Navigate to the project directory:
 
@@ -65,7 +63,3 @@ Robotsy News is a React application that fetches and displays news articles usin
 2. Use the search bar to enter a keyword or select a category.
 3. Click the "Search" button to fetch news articles.
 4. Browse through the displayed news articles.
-
-```
-
-```
