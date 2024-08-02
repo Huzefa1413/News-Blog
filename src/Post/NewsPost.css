@@ -1,0 +1,36 @@
+.apipost {
+  width: 40%;
+  margin: 15px auto;
+  padding: 2%;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.apipost .logo {
+  width: 38px;
+}
+
+.apipost .logo>img {
+  width: 100%;
+  border-radius: 100px;
+}
+
+.apipost .author {
+  font-weight: bold;
+  overflow-wrap: break-word;
+}
+
+.apipost .time {
+  font-weight: lighter;
+  color: gray;
+  font-size: small;
+  margin-top: 5px;
+}
+
+.apipost .data {
+  margin: 10px 0px;
+}
+
+.apipost .image>img {
+  width: 100%;
+}
