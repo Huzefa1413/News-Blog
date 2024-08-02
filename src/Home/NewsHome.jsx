@@ -25,21 +25,6 @@ function NewsHome() {
         'x-rapidapi-host': 'real-time-news-data.p.rapidapi.com',
       },
     };
-    const optiowns = {
-      method: 'GET',
-      url: 'https://bing-news-search1.p.rapidapi.com/news/search',
-      params: {
-        q: search,
-        freshness: 'Day',
-        textFormat: 'Raw',
-        safeSearch: 'Off',
-      },
-      headers: {
-        'X-BingApis-SDK': 'true',
-        'X-RapidAPI-Key': '3c97ac746bmsh7dccd8a13cb8a63p18bed6jsn1e5ff75525bb',
-        'X-RapidAPI-Host': 'bing-news-search1.p.rapidapi.com',
-      },
-    };
     setLoading(true);
     axios
       .request(options)
