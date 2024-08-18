@@ -75,6 +75,25 @@
   background-color: aqua;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.page-item {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f8f9fa;
+}
+.page-item.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
 .loadercontainer {
   display: flex;
   justify-content: center;
